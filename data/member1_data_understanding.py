@@ -1,5 +1,5 @@
 # Member 1 - Data Understanding
-# Name: [Tera naam]
+# Shah Palak 
 
 import pandas as pd
 
