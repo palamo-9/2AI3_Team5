@@ -1,8 +1,6 @@
 
 # Member 1 : data understanding
 
-import pandas as pd
-
 # Step 1: Load the dataset
 df = pd.read_csv("insurance_data_linear.csv")
 
