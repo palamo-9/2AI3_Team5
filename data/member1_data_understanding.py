@@ -1,4 +1,5 @@
-
+# Member 1 : data understanding
+# shah palak
 
 import pandas as pd
 
