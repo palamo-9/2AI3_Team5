@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Member 1 : data understanding
 # Step 1: Load the dataset
@@ -64,3 +65,13 @@ X_train, X_test, y_train, y_test = train_test_split(
 print("\nTrain shape:", X_train.shape)
 print("Test shape:", X_test.shape)
 >>>>>>> origin/Parth
+=======
+# ==============================
+# Zaid → Evaluation
+# ==============================
+
+print("\nModel Evaluation:")
+print("MAE:", mean_absolute_error(y_test, y_pred))
+print("MSE:", mean_squared_error(y_test, y_pred))
+print("R2 Score:", r2_score(y_test, y_pred))
+>>>>>>> origin/Zaid
