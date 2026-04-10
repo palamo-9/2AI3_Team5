@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
+
 # Member 1 : data understanding
 # Step 1: Load the dataset
 df = pd.read_csv("insurance_data_linear.csv")
@@ -39,3 +40,14 @@ print(df.head())
 # Update X and y after encoding
 X = df.drop("charges", axis=1)
 y = df["charges"]
+# ==============================
+# 📏 Member 3 → Scaling 
+# ==============================
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+X = pd.DataFrame(X_scaled, columns=X.columns)
+
+print("\nAfter Scaling:")
+print(X.head())
