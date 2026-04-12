@@ -9,7 +9,7 @@ PAI project focused on preprocessing raw data and making an ML model
 - Aryan (Scaling)
 - Parth (Train-Test Split)
 - Suryansh (Model Training)
-- Zaid (Model Evaluation)
+- Zaid (Model Evaluation + README.md)
 
 ---
 
