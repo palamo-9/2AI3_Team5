@@ -79,3 +79,13 @@ print("\nModel Evaluation:")
 print("MAE:", mean_absolute_error(y_test, y_pred))
 print("MSE:", mean_squared_error(y_test, y_pred))
 print("R2 Score:", r2_score(y_test, y_pred))
+# Save the model and scaler
+import pickle
+
+with open('model.pkl', 'wb') as f:
+    pickle.dump(model, f)
+
+with open('scaler.pkl', 'wb') as f:
+    pickle.dump(scaler, f)
+
+print("model.pkl and scaler.pkl saved successfully!")
