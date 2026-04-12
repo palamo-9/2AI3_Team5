@@ -4,7 +4,7 @@ PAI project focused on preprocessing raw data and making an ML model
 # Machine Learning Project: Medical Cost Prediction (Linear Regression)
 
 ## 👥 Team Members
-- Palak (Data Understanding)
+- Palak[#Team Lead] (Data Understanding)
 - Param (Encoding)
 - Aryan (Scaling)
 - Parth (Train-Test Split)
